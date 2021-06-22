@@ -1,2 +1,2 @@
 # Learning
-Learning code 
+Some proyects that i do when i lear code

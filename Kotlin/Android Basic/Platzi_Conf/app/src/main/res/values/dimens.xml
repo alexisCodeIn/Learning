@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="altoLogoPlatzi">45dp</dimen>
+    <dimen name="toolbarHigh">30dp</dimen>
+    <dimen name="cardCornerRadius">4dp</dimen>
+    <dimen name="highImageViewHome">150dp</dimen>
+    <dimen name="sizeTitle">20sp</dimen>
+    <dimen name="marginHomeSubtitle">5dp</dimen>
+    <dimen name="sizeSubTitle">15sp</dimen>
+    <dimen name="marginCardView">5dp</dimen>
+    <dimen name="marginInCardView">10dp</dimen>
+    <dimen name="itemScheduleTitle">20sp</dimen>
+    <dimen name="itemScheduleSubTitle">20sp</dimen>
+    <dimen name="cardElevation">5dp</dimen>
+    <dimen name="marginTextCardViews">5</dimen>
+    <dimen name="padding_text">15dp</dimen>
+    <dimen name="detailsTitleText">33sp</dimen>
+</resources>

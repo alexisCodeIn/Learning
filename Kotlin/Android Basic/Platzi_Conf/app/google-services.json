@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "387783027699",
+    "project_id": "platzi-conf-c761b",
+    "storage_bucket": "platzi-conf-c761b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387783027699:android:ba010bde1bf4e6bff74086",
+        "android_client_info": {
+          "package_name": "com.platziconf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387783027699-ta028f9sfjudku6ucbe71efe62cp2ar1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBHZNFaWnLpuVa7-QaC85DQcd4WGq53Tc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387783027699-ta028f9sfjudku6ucbe71efe62cp2ar1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

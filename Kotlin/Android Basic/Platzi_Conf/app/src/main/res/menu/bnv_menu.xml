@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_Home_Fragment"
+        android:title="@string/Home_Fragment"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:id="@+id/navigation_Conferences_Fragment"
+        android:title="@string/Conferences_Fragment"
+        android:icon="@drawable/ic_baseline_view_list_24"/>
+
+    <item
+        android:id="@+id/navigation_Speakers_Fragment"
+        android:title="@string/Speakers_Fragment"
+        android:icon="@drawable/ic_baseline_people_alt_24"/>
+
+    <item
+        android:id="@+id/navigation_Location_Fragment"
+        android:title="@string/Location_Fragment"
+        android:icon="@drawable/ic_baseline_location_on_24"/>
+</menu>

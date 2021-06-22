@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/cardCornerRadius"
+    app:cardElevation="@dimen/cardElevation"
+    android:layout_margin="@dimen/marginCardView"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/tvSpeakerPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/highImageViewHome"
+                android:src="@mipmap/ic_launcher"
+                android:layout_margin="@dimen/marginInCardView"
+                >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tvSpeakerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Speaker Name"
+                android:textStyle="bold"
+                android:textSize="@dimen/sizeTitle"
+                android:textColor="@color/colorPlatziPrimaryDark"
+                android:layout_margin="@dimen/marginHomeSubtitle"
+                android:gravity="center"
+                android:lines="2"
+                android:ellipsize="end">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvSpeakerJob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Speaker Job"
+                android:textStyle="bold"
+                android:textSize="@dimen/sizeSubTitle"
+                android:textColor="@color/colorPlatziAccent"
+                android:layout_margin="@dimen/marginHomeSubtitle"
+                android:gravity="center_horizontal">
+            </TextView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>

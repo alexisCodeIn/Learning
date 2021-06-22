@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbConferenceDetails"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_collapseMode="pin">
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarSpeakerProfile"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collToolLayProfile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:contentScrim="?attr/colorPrimary"
+            android:fitsSystemWindows="true"
+            app:expandedTitleTextAppearance="@color/colorPlatziAccent"
+            android:background="@color/colorPlatziPrimary">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_close"
+                android:layout_margin="@dimen/padding_text"
+                android:scaleX="1.5"
+                android:scaleY="1.5">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/tvDetailConferenceName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/marginHomeSubtitle"
+                android:gravity="bottom"
+                android:text="@string/conference_name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/detailsTitleText"
+                android:textStyle="bold"
+                android:padding="@dimen/padding_text"
+                android:lines="4"
+                android:ellipsize="end">
+            </TextView>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_text">
+
+            <TextView
+                android:id="@+id/tvDetailConferenceSpeakerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/marginHomeSubtitle"
+                android:gravity="start"
+                android:text="@string/speaker_name"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="normal">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvDetailConferenceHour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/marginHomeSubtitle"
+                android:gravity="start"
+                android:text="@string/conference_Time"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="normal">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvDetailConferenceDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/marginHomeSubtitle"
+                android:gravity="start"
+                android:text="@string/conference_Description"
+                android:textColor="@color/black60"
+                android:textSize="@dimen/sizeTitle"
+                android:textStyle="normal"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
