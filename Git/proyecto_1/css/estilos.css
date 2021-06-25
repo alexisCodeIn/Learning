@@ -1,3 +1,4 @@
+
 body
 {
     color: #333;
@@ -38,7 +39,16 @@ body
 {
     font-size: 20px;
 }
+
 #post
 {
     padding: 1em;
+}
+
+#footer
+{
+    padding: 0.5em;
+    background: #33A;
+    color: white;
+    text-align: center;
 }
