@@ -1,6 +1,7 @@
 body
 {
-    color: #333;
+    background: #333;
+    color: white;
     text-align: center;
     font-family: Arial;
     font-size: 16px;
@@ -10,9 +11,9 @@ body
 
 #cabecera
 {
-    background: #33A;
+    background: orange;
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
-    color: white;
+    color: black;
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
@@ -20,9 +21,10 @@ body
 
 #cabecera #tagline
 {
-    padding: 0 0 0 1em;
+    padding: 0 0 0 0em;
     font-weight: normal;
     font-size: 0.8em;
+    color: black;
 }
 
 #container
@@ -32,6 +34,8 @@ body
     text-align: left;
     border: 1px solid #DDD;
     margin: 0 auto;
+    margin-top: 10px;
+    border-color: orange;
 }
 
 #container h1
