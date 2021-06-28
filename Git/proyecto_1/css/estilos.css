@@ -58,8 +58,9 @@ body
 #footer
 {
     padding: 0.5em;
-    background: #33A;
+    background: red;
     color: white;
     text-align: center;
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    border-color: red;
 }
