@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.recyclerview:recyclerview:1.1.0-alpha01@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/recyclerview-1.1.0-alpha01.aar/5e8255bad4ed5b555cd52cffa6c3c5ee/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/recyclerview-1.1.0-alpha01.aar/5e8255bad4ed5b555cd52cffa6c3c5ee/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/recyclerview-1.1.0-alpha01.aar/5e8255bad4ed5b555cd52cffa6c3c5ee/res" />
+      <root url="file://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/recyclerview-1.1.0-alpha01.aar/5e8255bad4ed5b555cd52cffa6c3c5ee/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0-alpha01/85a9b166be3ab77744c81dc0fb8a041cae221c1a/recyclerview-1.1.0-alpha01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

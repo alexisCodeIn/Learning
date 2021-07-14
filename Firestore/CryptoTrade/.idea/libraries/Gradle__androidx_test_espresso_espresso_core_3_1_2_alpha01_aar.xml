@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.test.espresso:espresso-core:3.1.2-alpha01@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/espresso-core-3.1.2-alpha01.aar/a7b7f5aa9b25207e3fc345f9d9bcaae7/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/espresso-core-3.1.2-alpha01.aar/a7b7f5aa9b25207e3fc345f9d9bcaae7/res" />
+      <root url="file://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/espresso-core-3.1.2-alpha01.aar/a7b7f5aa9b25207e3fc345f9d9bcaae7/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/modules-2/files-2.1/androidx.test.espresso/espresso-core/3.1.2-alpha01/6538e21a82306817ad5c51750c76a45f4ed00276/espresso-core-3.1.2-alpha01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

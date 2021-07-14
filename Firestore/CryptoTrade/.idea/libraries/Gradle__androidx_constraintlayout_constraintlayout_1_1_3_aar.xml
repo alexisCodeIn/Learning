@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.constraintlayout:constraintlayout:1.1.3@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/b50dc9ec234deb273c8fc64c48c72641/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/b50dc9ec234deb273c8fc64c48c72641/res" />
+      <root url="file://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/b50dc9ec234deb273c8fc64c48c72641/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

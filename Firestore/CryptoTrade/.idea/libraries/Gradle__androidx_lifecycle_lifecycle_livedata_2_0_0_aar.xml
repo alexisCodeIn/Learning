@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.lifecycle:lifecycle-livedata:2.0.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/96907405fa42956fcfe856ea6437e2f7/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/96907405fa42956fcfe856ea6437e2f7/res" />
+      <root url="file://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/96907405fa42956fcfe856ea6437e2f7/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata/2.0.0/740ce61935bd789380c01178bd8ce402402ebd2f/lifecycle-livedata-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

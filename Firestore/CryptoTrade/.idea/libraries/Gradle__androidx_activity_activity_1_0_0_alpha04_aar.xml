@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.activity:activity:1.0.0-alpha04@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/activity-1.0.0-alpha04.aar/3f8e37650ef1fc5fbec370c899516f5f/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/activity-1.0.0-alpha04.aar/3f8e37650ef1fc5fbec370c899516f5f/res" />
+      <root url="file://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/activity-1.0.0-alpha04.aar/3f8e37650ef1fc5fbec370c899516f5f/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/modules-2/files-2.1/androidx.activity/activity/1.0.0-alpha04/381216c204d2ede6a023004b782c2f80a797086f/activity-1.0.0-alpha04-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

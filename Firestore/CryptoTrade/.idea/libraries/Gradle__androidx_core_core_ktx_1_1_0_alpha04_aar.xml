@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.core:core-ktx:1.1.0-alpha04@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/core-ktx-1.1.0-alpha04.aar/18c80f1ce36d30e3498e9554c99d6742/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/core-ktx-1.1.0-alpha04.aar/18c80f1ce36d30e3498e9554c99d6742/res" />
+      <root url="file://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/core-ktx-1.1.0-alpha04.aar/18c80f1ce36d30e3498e9554c99d6742/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/modules-2/files-2.1/androidx.core/core-ktx/1.1.0-alpha04/26e14ed09a4685d20af6787059f7cc36e4c832cb/core-ktx-1.1.0-alpha04-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.coordinatorlayout:coordinatorlayout:1.1.0-alpha01@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/coordinatorlayout-1.1.0-alpha01.aar/386801cddc180a65e5d8026d816f146f/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/coordinatorlayout-1.1.0-alpha01.aar/386801cddc180a65e5d8026d816f146f/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/coordinatorlayout-1.1.0-alpha01.aar/386801cddc180a65e5d8026d816f146f/res" />
+      <root url="file://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/coordinatorlayout-1.1.0-alpha01.aar/386801cddc180a65e5d8026d816f146f/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/modules-2/files-2.1/androidx.coordinatorlayout/coordinatorlayout/1.1.0-alpha01/71352589ac3501048d7d4e47a8034a94ffbf05df/coordinatorlayout-1.1.0-alpha01-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

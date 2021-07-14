@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.appcompat:appcompat:1.1.0-alpha02@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/appcompat-1.1.0-alpha02.aar/014104ad712a4b97a4a4299a64c3eea8/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/appcompat-1.1.0-alpha02.aar/014104ad712a4b97a4a4299a64c3eea8/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/appcompat-1.1.0-alpha02.aar/014104ad712a4b97a4a4299a64c3eea8/res" />
+      <root url="file://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/appcompat-1.1.0-alpha02.aar/014104ad712a4b97a4a4299a64c3eea8/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.1.0-alpha02/1a24e9f62af2b129dbc5535693ee99904a5c828f/appcompat-1.1.0-alpha02-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

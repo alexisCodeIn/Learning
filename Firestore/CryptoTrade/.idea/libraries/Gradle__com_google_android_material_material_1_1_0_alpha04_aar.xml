@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.material:material:1.1.0-alpha04@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/material-1.1.0-alpha04.aar/6b9c805a79e177790a3ffd0e88a6871d/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/material-1.1.0-alpha04.aar/6b9c805a79e177790a3ffd0e88a6871d/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/material-1.1.0-alpha04.aar/6b9c805a79e177790a3ffd0e88a6871d/res" />
+      <root url="file://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/material-1.1.0-alpha04.aar/6b9c805a79e177790a3ffd0e88a6871d/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/modules-2/files-2.1/com.google.android.material/material/1.1.0-alpha04/a2fab1661eb6eb255395c42104bbfe5c93ea28ff/material-1.1.0-alpha04-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

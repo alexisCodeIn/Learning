@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.fragment:fragment:1.1.0-alpha04@aar">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/fragment-1.1.0-alpha04.aar/bc396e2330580e4ab746e275ef661f9d/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/fragment-1.1.0-alpha04.aar/bc396e2330580e4ab746e275ef661f9d/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/fragment-1.1.0-alpha04.aar/bc396e2330580e4ab746e275ef661f9d/res" />
+      <root url="file://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/transforms-1/files-1.1/fragment-1.1.0-alpha04.aar/bc396e2330580e4ab746e275ef661f9d/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../StryApp/.Codigo/Master/36 - Copy/caches/modules-2/files-2.1/androidx.fragment/fragment/1.1.0-alpha04/870733dc7b6530396cd37e2c52808e2a438f1f82/fragment-1.1.0-alpha04-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
