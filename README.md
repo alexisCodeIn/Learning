@@ -3,7 +3,7 @@ Some proyects that i do when i learn code 📈
 
 - Html, Css, Javascript
 - Kotlin
-- Git 
+- Android
 
 And i'm going for more 
 
