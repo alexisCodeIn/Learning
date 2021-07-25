@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/aboutFragment"
+        android:title="@string/about" />
+    <!-- TODO (02) Create the navDrawer menu
+         Right click the menu folder and select New > Menu resource file.
+         Add rulesFragment and aboutFragment menu items. -->
+</menu>
