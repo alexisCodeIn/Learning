@@ -26,11 +26,17 @@ import androidx.core.app.ShareCompat
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.LifecycleObserver
 import com.example.android.dessertpusher.databinding.ActivityMainBinding
+import timber.log.Timber
+
+const val KEY_REVENUE = "key_revenue"
+const val KEY_SOLD = "key_sold"
+const val KEY_SECONDS_COUNT = "key_seconds_count"
 
 class MainActivity : AppCompatActivity(), LifecycleObserver {
 
     private var revenue = 0
     private var dessertsSold = 0
+    private lateinit var dessertTimer: DessertTimer
 
     // Contains all the views
     private lateinit var binding: ActivityMainBinding
@@ -45,6 +51,7 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
     data class Dessert(val imageId: Int, val price: Int, val startProductionAmount: Int)
 
     // Create a list of all desserts, in order of when they start being produced
+
     private val allDesserts = listOf(
             Dessert(R.drawable.cupcake, 5, 0),
             Dessert(R.drawable.donut, 10, 5),
@@ -60,10 +67,21 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
             Dessert(R.drawable.nougat, 5000, 16000),
             Dessert(R.drawable.oreo, 6000, 20000)
     )
+
     private var currentDessert = allDesserts[0]
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Init DessertTimer
+        dessertTimer = DessertTimer(this.lifecycle)
+
+        // Check exist data
+        if (savedInstanceState != null) {
+            revenue = savedInstanceState.getInt(KEY_REVENUE, revenue)
+            dessertsSold = savedInstanceState.getInt(KEY_SOLD, dessertsSold)
+            dessertTimer.secondsCount = savedInstanceState.getInt(KEY_SECONDS_COUNT, dessertTimer.secondsCount)
+        }
 
         // Use Data Binding to get reference to the views
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
@@ -78,6 +96,9 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
 
         // Make sure the correct dessert is showing
         binding.dessertButton.setImageResource(currentDessert.imageId)
+
+        // Log message
+        Timber.i("onCreate Called")
     }
 
     /**
@@ -145,5 +166,63 @@ class MainActivity : AppCompatActivity(), LifecycleObserver {
             R.id.shareMenuButton -> onShare()
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+
+        outState.putInt(KEY_REVENUE, revenue)
+        outState.putInt(KEY_SOLD, dessertsSold)
+        outState.putInt(KEY_SECONDS_COUNT, dessertTimer.secondsCount)
+
+        Timber.i("onSaveInstanceState Called")
+    }
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+        super.onRestoreInstanceState(savedInstanceState)
+
+        Timber.i("onRestoreInstanceState Called")
+    }
+
+    override fun onStart() {
+        super.onStart()
+
+        // Log message
+        Timber.i("onStart Called")
+    }
+
+    override fun onResume() {
+        super.onResume()
+
+        // Log message
+        Timber.i("onResume Called")
+    }
+
+    override fun onPause() {
+        super.onPause()
+
+        // Log message
+        Timber.i("onPause Called")
+    }
+
+    override fun onStop() {
+        super.onStop()
+
+        // Log message
+        Timber.i("onStop Called")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+
+        // Log message
+        Timber.i("onDestroy Called")
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+
+        // Log message
+        Timber.i("onRestart Called")
     }
 }
