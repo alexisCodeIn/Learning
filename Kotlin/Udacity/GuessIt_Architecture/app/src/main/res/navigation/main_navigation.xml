@@ -65,5 +65,9 @@
             android:name="score"
             android:defaultValue="0"
             app:argType="integer" />
+        <argument
+            android:name="title"
+            app:argType="string"
+            android:defaultValue="MyTitle" />
     </fragment>
 </navigation>
