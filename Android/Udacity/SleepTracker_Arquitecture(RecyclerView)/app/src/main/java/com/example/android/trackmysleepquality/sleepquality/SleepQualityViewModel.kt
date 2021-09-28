@@ -52,7 +52,6 @@ class SleepQualityViewModel(
 
     override fun onCleared() {
         super.onCleared()
-
         viewModelJob.cancel()
     }
 }
